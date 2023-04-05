@@ -10,10 +10,12 @@ Ans 2 .
          If be use restricted keyword as a variable python will throw an error.
 
 Q3. Can we actually declare a string as a variable name?
-Ans 3 . No becouse a string may have any sequence of charactor(INCLUDING SPECIAL SYMBOL) but the variable name not .
+Ans 3 . No becouse a string may have any sequence of charactor(INCLUDING SPECIAL SYMBOL) but the variable name cannot have
+         special symbol or whitespace .
 
 Q4. Is it possible for us to declare “_” as a variable? If so, then write an example of it.
 Ans 4 . Yes python allow us to use "_" in a variable anywhere
+       --> _ = 6467646 --> it is also valid
        -->  _myVar = 34468
        -->  my_Var = "hey there"
        -->  myVar_ = 25.6
